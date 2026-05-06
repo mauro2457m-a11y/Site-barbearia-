@@ -33,7 +33,7 @@ const Navbar = () => {
             <a href="#about" className="hover:text-yellow-500 transition-colors">Galeria</a>
             <a href="#contact" className="hover:text-yellow-500 transition-colors">Contato</a>
             <a 
-              href="https://wa.me/5581986189959" 
+              href="https://wa.me/558198356583" 
               target="_blank" 
               rel="no-referrer"
               className="bg-yellow-600 hover:bg-yellow-500 text-black px-6 py-2.5 rounded-lg transition-all transform hover:scale-105 active:scale-95 font-black shadow-lg shadow-yellow-600/20"
@@ -61,7 +61,7 @@ const Navbar = () => {
           <a href="#about" className="text-slate-300 text-lg font-bold uppercase tracking-widest" onClick={() => setIsOpen(false)}>Galeria</a>
           <a href="#contact" className="text-slate-300 text-lg font-bold uppercase tracking-widest" onClick={() => setIsOpen(false)}>Contato</a>
           <a 
-            href="https://wa.me/5581986189959"
+            href="https://wa.me/558198356583"
             target="_blank"
             rel="no-referrer"
             className="bg-yellow-600 text-black py-4 rounded-xl font-black uppercase tracking-widest mt-2"
@@ -120,7 +120,7 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a 
-              href="https://wa.me/5581986189959" 
+              href="https://wa.me/558198356583" 
               target="_blank" 
               rel="no-referrer"
               className="group bg-yellow-600 hover:bg-yellow-500 text-black px-12 py-6 rounded-2xl font-black text-xl transition-all shadow-2xl shadow-yellow-600/40 uppercase tracking-tighter flex items-center gap-3 active:scale-95"
@@ -217,7 +217,7 @@ const Services = () => {
                     <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">A partir de</span>
                     <span className="text-4xl font-display font-black text-white">{service.price}</span>
                   </div>
-                  <a href="https://wa.me/5581986189959" className="w-16 h-16 bg-yellow-600 text-black rounded-2xl flex items-center justify-center hover:bg-yellow-500 transition-all shadow-xl shadow-yellow-600/20">
+                  <a href="https://wa.me/558198356583" className="w-16 h-16 bg-yellow-600 text-black rounded-2xl flex items-center justify-center hover:bg-yellow-500 transition-all shadow-xl shadow-yellow-600/20">
                     <ChevronRight size={32} />
                   </a>
                 </div>
@@ -317,14 +317,14 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-xs font-black uppercase tracking-[0.2em] text-slate-500 mb-2">Contato</p>
-                  <p className="text-xl text-white font-bold leading-tight">(81) 98618-9959</p>
+                  <p className="text-xl text-white font-bold leading-tight">(81) 9835-6583</p>
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap gap-4">
               <a 
-                href="https://wa.me/5581986189959" 
+                href="https://wa.me/558198356583" 
                 target="_blank"
                 rel="no-referrer"
                 className="bg-yellow-600 hover:bg-yellow-500 text-black px-10 py-5 rounded-2xl font-black text-lg transition-all flex items-center gap-3 shadow-xl"
@@ -374,7 +374,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center gap-8 mb-10">
           <a href="#" className="text-slate-500 hover:text-white transition-colors"><Instagram /></a>
-          <a href="https://wa.me/5581986189959" className="text-slate-500 hover:text-white transition-colors"><Phone /></a>
+          <a href="https://wa.me/558198356583" className="text-slate-500 hover:text-white transition-colors"><Phone /></a>
         </div>
         <p className="text-slate-600 text-xs font-bold uppercase tracking-[0.3em]">
           © 2026 Barbearia Shekinah • Do clássico ao moderno <br />
