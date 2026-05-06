@@ -21,7 +21,7 @@ const Navbar = () => {
               <Scissors className="text-black" size={24} />
             </div>
             <div>
-              <span className="text-xl font-black tracking-tighter text-white uppercase block leading-none">Shekinah</span>
+              <span className="text-xl font-black tracking-tighter text-white uppercase block leading-none">Dom Diniz</span>
               <span className="text-[10px] text-yellow-500 font-bold uppercase tracking-[0.2em]">Barbearia</span>
             </div>
           </div>
@@ -110,7 +110,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-7xl md:text-[160px] font-black text-white uppercase tracking-tighter leading-[0.75] mb-8 italic">
-            Shekinah <br />
+            Dom Diniz <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-800">Master</span>
           </h1>
           
@@ -235,7 +235,7 @@ const PhotoGrid = () => {
     { url: "input_file_2.png", size: "col-span-2 row-span-2", title: "Nossa Identidade", fallback: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800" },
     { url: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=800", size: "col-span-2 row-span-1", title: "Estilo Clássico", fallback: "" },
     { url: "input_file_0.png", size: "col-span-1 row-span-1", title: "Espaço Interno", fallback: "https://images.unsplash.com/photo-1593702295094-ada75541299e?auto=format&fit=crop&q=80&w=600" },
-    { url: "input_file_3.png", size: "col-span-1 row-span-1", title: "Equipe Shekinah", fallback: "https://images.unsplash.com/photo-1621605815841-aa88c824c44c?auto=format&fit=crop&q=80&w=600" }
+    { url: "input_file_3.png", size: "col-span-1 row-span-1", title: "Equipe Dom Diniz", fallback: "https://images.unsplash.com/photo-1621605815841-aa88c824c44c?auto=format&fit=crop&q=80&w=600" }
   ];
 
   return (
@@ -281,8 +281,8 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-[#111] border border-white/5 rounded-[60px] p-12 md:p-24 overflow-hidden relative flex flex-col md:flex-row gap-20 items-center shadow-3xl">
           {/* Background Text */}
-          <div className="absolute inset-0 flex items-center justify-center opacity-[0.02] pointer-events-none overflow-hidden select-none">
-             <span className="text-[300px] font-black uppercase rotate-12 whitespace-nowrap">SHEKINAH</span>
+          <div className="flex inset-0 flex items-center justify-center opacity-[0.02] pointer-events-none overflow-hidden select-none">
+             <span className="text-[200px] font-black uppercase rotate-12 whitespace-nowrap">DOM DINIZ</span>
           </div>
 
           <div className="relative z-10 md:w-1/2">
@@ -370,14 +370,14 @@ const Footer = () => {
           <div className="w-10 h-10 bg-yellow-600 rounded-xl flex items-center justify-center rotate-6">
             <Scissors className="text-black" size={20} />
           </div>
-          <span className="text-2xl font-black tracking-tighter text-white uppercase italic">Shekinah</span>
+          <span className="text-2xl font-black tracking-tighter text-white uppercase italic">Dom Diniz</span>
         </div>
         <div className="flex justify-center gap-8 mb-10">
           <a href="#" className="text-slate-500 hover:text-white transition-colors"><Instagram /></a>
           <a href="https://wa.me/558198356583" className="text-slate-500 hover:text-white transition-colors"><Phone /></a>
         </div>
         <p className="text-slate-600 text-xs font-bold uppercase tracking-[0.3em]">
-          © 2026 Barbearia Shekinah • Do clássico ao moderno <br />
+          © 2026 Barbearia Dom Diniz • Do clássico ao moderno <br />
           Rua Tamboril, 11 - Cordeiro, Recife - PE.
         </p>
       </div>
